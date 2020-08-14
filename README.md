@@ -7,6 +7,21 @@ See website https://www.cbr250rri.com/ for further project details.
 
 
 
-CAN Dash Controller
+## CAN Dash Controller
 
-Controller board designed to recieve engine data from ECU via CAN-Bus and use them to control a Koso RX2N motorcycle dash. 
+Teensy 3.2 based controller board designed to recieve engine data from ECU via CAN-Bus and use it to control a Koso RX2N motorcycle dash.
+
+
+## MAP-CMP Sensor
+
+Small module designed to output an engine phase signal (camshaft posn) based on a single cylinder inlet port pressure trace.
+
+
+## GPS-IMU CAN Module
+
+Teensy 3.2 based controller board designed to collect GPS & IMU data from SkyTraq Venus838LPx and Bosch BNO055 breakout boards and transmit the data via CAN-Bus.
+
+
+## CAN Datalogger Module
+
+Teensy 3.2 based CAN-Bus data logger module. Data is recieved via CAN-Bus and written to a microSD card in raw binary format. A Python script is used to convert the binary log files to csv using a CAN DBC file.
