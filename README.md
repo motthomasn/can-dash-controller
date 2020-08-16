@@ -12,11 +12,6 @@ See website https://www.cbr250rri.com/ for further project details.
 Teensy 3.2 based controller board designed to recieve engine data from ECU via CAN-Bus and use it to control a Koso RX2N motorcycle dash.
 
 
-## MAP-CMP Sensor
-
-Small module designed to output an engine phase signal (camshaft posn) based on a single cylinder inlet port pressure trace.
-
-
 ## GPS-IMU CAN Module
 
 Teensy 3.2 based controller board designed to collect GPS & IMU data from SkyTraq Venus838LPx and Bosch BNO055 breakout boards and transmit the data via CAN-Bus.
